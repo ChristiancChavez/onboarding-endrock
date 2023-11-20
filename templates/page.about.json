@@ -1,6 +1,13 @@
 {
     "sections": {
         "main": {
+            "type": "main-page",
+            "settings": {
+                "padding_top": 28,
+                "padding_bottom": 28
+            }
+        },
+        "about": {
             "type": "main-about",
             "settings": {
                 "padding_top": 28,
@@ -9,6 +16,7 @@
         }
     },
         "order": [
-        "main"
+        "main",
+        "about"
     ]
 }

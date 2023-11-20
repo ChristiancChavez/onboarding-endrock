@@ -1,0 +1,16 @@
+{% comment %}
+    Renders image for section.
+    Accepts:
+    - src: {String} a url to render the image.
+    - class: {string} a string to add styles.
+
+    Usage:
+    {% render 'image-section',
+    src: 'src-url', 
+    class: 'my-class'
+    %}
+{% endcomment %}
+
+<div class="image-container-section">
+    <img src={{settings.image_section}} alt="Image abot us" />
+</div>

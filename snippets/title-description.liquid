@@ -1,0 +1,16 @@
+{% comment %}
+    Renders a title for a description.
+    Accepts:
+    - title: {String} a title to explain the image or section.
+
+
+    Usage:
+    {% render 'title-description' %},
+    title: 'my-title', 
+
+    %}
+{% endcomment %}
+
+<h1 class="como se usa la clase que se la pasa, tipo props en React?">
+    {{ settings.title_description | escape }}
+</h1>

@@ -1,0 +1,16 @@
+{% comment %}
+    Renders a description text for section.
+    Accepts:
+    - text: {String} a description to explain the image or section.
+
+
+    Usage:
+    {% render 'text-description' %},
+    text: 'my-text', 
+
+    %}
+{% endcomment %}
+
+<div class="si no paso nada se puede hacer inline style donde lo use?">
+    {{ settings.text_description | escape }}
+</div>

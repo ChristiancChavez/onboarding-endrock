@@ -170,6 +170,9 @@
       "show_vendor": false,
       "show_cart_note": false,
       "cart_drawer_collection": "",
+      "text_description": "",
+      "title_description": "",
+      "image_section": "",
       "sections": {
         "main-password-header": {
           "type": "main-password-header",
