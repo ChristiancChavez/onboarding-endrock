@@ -8,7 +8,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "Welcome to our STOREEEEEEEEEE",
             "text_alignment": "center",
             "color_scheme": "scheme-1",
             "link": ""
@@ -23,7 +23,7 @@
       "type": "header",
       "settings": {
         "color_scheme": "scheme-1",
-        "logo_position": "middle-left",
+        "logo_position": "middle-right",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
@@ -38,7 +38,7 @@
     }
   },
   "order": [
-    "announcement-bar",
-    "header"
+    "header",
+    "announcement-bar"
   ]
 }
