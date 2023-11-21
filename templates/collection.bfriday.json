@@ -4,7 +4,7 @@
             "type": "main-collection-banner-bfriday",
             "settings": {
                 "show_collection_description": true,
-                "show_collection_image": false,
+                "show_collection_image": true,
                 "color_scheme": "scheme-1"
             }
         },
@@ -14,7 +14,7 @@
                 "products_per_page": 2,
                 "columns_desktop": 4,
                 "image_ratio": "adapt",
-                "show_secondary_image": false,
+                "show_secondary_image": true,
                 "show_vendor": false,
                 "show_rating": false,
                 "enable_filtering": true,
