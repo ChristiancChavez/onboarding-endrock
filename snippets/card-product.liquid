@@ -127,6 +127,14 @@
               >
                 {{- 'products.product.sold_out' | t -}}
               </span>
+              {%- elsif card_product.available <= 5 -%}
+                <span
+                  id="lastItemsAvailable-{{ section_id }}-{{ card_product.id }}"
+                  class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+                >
+                  {{- 'Last Items' | upcase -}}
+                </span>
+            {%- endif -%}
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
               <span
                 id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
@@ -205,6 +213,12 @@
                 <span class="caption">{{ 'products.product.volume_pricing.note' | t }}</span>
               </div>
             {%- endif -%}
+            <div>
+              <h3>Options</h3>
+              {% for options in product.options %}
+                  {{ options }}
+              {% endfor %}
+            </div>
           </div>
         </div>
         {%- if show_quick_add -%}
