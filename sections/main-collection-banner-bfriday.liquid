@@ -22,7 +22,6 @@
         {%- endif -%}
     </div>
 
-    {%- if section.settings.show_collection_image and collection.image -%}
         <div class="collection-hero__image-container media gradient">
             <img
             srcset="
@@ -40,8 +39,7 @@
             width="{{ collection.image.width }}"
             height="{{ collection.image.height }}"
             >
-            </div>
-        {%- endif -%}
+        </div>
     </div>
 </div>
 
