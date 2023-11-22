@@ -215,8 +215,8 @@
             {%- endif -%}
             <div>
               <h3>Options</h3>
-              {% for options in card_product.options %}
-                  {{ options }}
+              {% for variants in card_product.variants %}
+                  {{ variants }}
               {% endfor %}
             </div>
           </div>

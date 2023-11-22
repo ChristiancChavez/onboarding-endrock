@@ -20,10 +20,11 @@
         {%- if section.settings.show_collection_description -%}
             <div class="collection-hero__description rte">{{ collection.description }}</div>
         {%- endif -%}
+        <h1>DESCRIPTION</h1>
     </div>
 
         <div class="collection-hero__image-container media gradient">
-            h1>aqui va la imagen</h1>
+            <h1>aqui va la imagen</h1>
             <img
             srcset="
                 {%- if collection.image.width >= 165 -%}{{ collection.image | image_url: width: 165 }} 165w,{%- endif -%}
