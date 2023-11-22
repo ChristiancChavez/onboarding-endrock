@@ -154,7 +154,7 @@
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
-                  {% render 'card-product',
+                  {% render 'card-product'
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
                     image_shape: section.settings.image_shape,
@@ -166,6 +166,7 @@
                     section_id: section.id
                   %}
                 </li>
+                <h1>here is the product</h1>
               {%- endfor -%}
             </ul>
             {%- if paginate.pages > 1 -%}

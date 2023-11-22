@@ -169,8 +169,8 @@
                         </li>
                         <div>
                             <h3>Options</h3>
-                            {% for option in product.options_with_values %}
-                                {{ option.name }}
+                            {% for option in product.options %}
+                                {{ option }}
                             {% endfor %}
                         </div>
                     {%- endfor -%}
