@@ -215,15 +215,19 @@
             <div>
               <h3>Options</h3>
               {% for variants in card_product.variants %}
-                  {{ variants.id }}
+                <ul>
+                    <li>{{ variants.id }}</li>
+                    <li>{{ variants.price }}</li>
+                    <li>{{ variants.title }}</li>
+                </ul>
               {% endfor %}
             </div>
-            <div>
+            {% comment %} <div>
               <h3>Images</h3>
               {% for image in card_product.images %}
-                {%  render 'carrousel-product', image: image %}
+                {%  render 'carrousel-product', product: image %}
               {% endfor %}
-            </div>
+            </div> {% endcomment %}
           </div>
         </div>
         {%- if show_quick_add -%}

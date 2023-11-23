@@ -1,11 +1,7 @@
 {
     "sections": {
         "slider": {
-            "type": "carrousel-product",
-            "settings": {
-                "padding-top": 28,
-                "padding_bottom": 28
-            }
+            "type": "carrousel-product"
         }
     },
     "order" : [
