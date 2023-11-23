@@ -15,7 +15,7 @@
             }
         }
     },
-        "order": [
+    "order": [
         "main",
         "about"
     ]
